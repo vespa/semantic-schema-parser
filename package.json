@@ -1,0 +1,30 @@
+{
+  "name": "semantic-schema-parser",
+  "version": "0.0.1",
+  "description": "A NodeJS module to extract micro-data from html docs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vespa/semantic-schema-parser.git"
+  },
+  "keywords": [
+    "schema",
+    "schema.org",
+    "microdata",
+    "micro-data",
+    "microformats"
+  ],
+  "author": "Danilo C. Vespa",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/vespa/semantic-schema-parser/issues"
+  },
+  "homepage": "https://github.com/vespa/semantic-schema-parser",
+  "devDependencies": {
+    "cheerio": "~0.13.1",
+    "request": "~2.34.0"
+  }
+}
