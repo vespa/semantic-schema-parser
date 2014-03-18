@@ -16,10 +16,16 @@
         "http://www.ebay.com/itm/Doctor-Who-3D-TARDIS-Police-Box-Pewter-Tall-PENDANT-20-Long-Chain-Necklace-/331098975095?pt=LH_DefaultDomain_0&hash=item4d17096b77"
         ];
 
+<<<<<<< HEAD
     //Reading files
     schema.parseURLs(urls, function(msg){
        msg = JSON.stringify(msg);
+=======
+>>>>>>> 8060bd4b31b7a788e7bd9195ee976bc9ad00b666
 
+
+    //Reading files
+    schema.parseURLs(urls, function(msg){
        fs.writeFile("../result.json", msg, function(err){
           if(err){
             console.log("report: something gones wrong:" +err);
