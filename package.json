@@ -1,6 +1,6 @@
 {
   "name": "semantic-schema-parser",
-  "version": "0.0.2",
+  "version": "0.0.3.1",
   "description": "A NodeJS module to extract micro-data from html docs",
   "main": "./lib/schemaParser",
   "scripts": {
@@ -20,7 +20,7 @@
     "htmlParser"
   ],
   "author": "Danilo C. Vespa",
-  "license": "GNU",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vespa/semantic-schema-parser/issues"
   }, 
