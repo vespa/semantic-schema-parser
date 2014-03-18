@@ -1,6 +1,6 @@
 # Semantic Schema Parser
 
-A Nodejs modulo who extracts from HTML the http://schema.org micro-data and convert it to a JSON object.
+A Nodejs module to extract http://schema.org micro-data from HTML and convert it in a JSON object.
 
 ## Install 
     npm install semantic-schema-parser
