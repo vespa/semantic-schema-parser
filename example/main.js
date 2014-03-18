@@ -18,6 +18,8 @@
 
     //Reading files
     schema.parseURLs(urls, function(msg){
+       msg = JSON.stringify(msg);
+
        fs.writeFile("../result.json", msg, function(err){
           if(err){
             console.log("report: something gones wrong:" +err);
