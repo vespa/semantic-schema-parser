@@ -3,7 +3,7 @@
 A Nodejs modulo who extracts from HTML the http://schema.org micro-data and convert it to a JSON object.
 
 ## Install 
-npm install semantic-schema-parser
+    npm install semantic-schema-parser
 
 ## How use it
 
