@@ -32,7 +32,7 @@ The example will create a file named result.json based in a URLs list. That file
 
 Probably , It'll be something like that:
 
-  {
+    {
 
       "http://www.ebay.com/itm/Doctor-Who-3D-TARDIS-Police-Box-Pewter-Tall-PENDANT-20-Long-Chain-Necklace-/331098975095?pt=LH_DefaultDomain_0&hash=item4d17096b77": {
           "title": " Doctor Who 3D Tardis Police Box Pewter Tall Pendant 20\" Long Chain Necklace | eBay ",
@@ -108,8 +108,7 @@ Probably , It'll be something like that:
               }
           ]
       }
-
-  }
+    }
 
 
 
