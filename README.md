@@ -28,7 +28,7 @@ A Nodejs module to extract http://schema.org micro-data from HTML and convert it
 Get in the example folder and run the command
   node main.js
 
-The example will create a file named result.json based in a URLs list. That file have an text example of the generate JSON object. 
+The example will create a file named result.json based in a URLs list. That file have a text example of the generate JSON object. 
 
 Probably , It'll be something like that:
 
