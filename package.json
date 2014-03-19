@@ -1,6 +1,6 @@
 {
   "name": "semantic-schema-parser",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "A NodeJS module to extract micro-data from html docs",
   "main": "./lib/schemaParser",
   "scripts": {
@@ -25,7 +25,7 @@
     "url": "https://github.com/vespa/semantic-schema-parser/issues"
   }, 
   "homepage": "https://github.com/vespa/semantic-schema-parser",
-  "devDependencies": {
+  "dependencies": {
     "cheerio": "~0.13.1",
     "request": "~2.34.0"
   }
