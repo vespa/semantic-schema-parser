@@ -1,6 +1,6 @@
 {
   "name": "semantic-schema-parser",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A NodeJS module to extract micro-data from html docs",
   "main": "./lib/schemaParser",
   "scripts": {
