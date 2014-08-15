@@ -23,11 +23,11 @@ A Nodejs module to extract http://schema.org micro-data from HTML and convert it
        // do something
     });
 
-You also can send the content as a string using the parseContent function:
+You also can send the content you want to parse as a string using the parseContent function:
 
       var schema = require("semantic-schema-parser");
       var myString = "<html><head></head><body>...etc...</body></html>"
-      schema.parseContent($.html(), function(msg){
+      schema.parseContent(myString, function(msg){
           // returns a JSON;
           msg = JSON.stringify(msg);
           // do something
